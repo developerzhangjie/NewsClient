@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="content" type="id"/>
+    <item name="activity_main" type="id"/>
+    <item name="btn" type="id"/>
+    <item name="ll_all_point" type="id"/>
+    <item name="point" type="id"/>
+</resources>

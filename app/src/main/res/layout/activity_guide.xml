@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#2196F3"
+        android:padding="10dp"
+        android:text="@string/startNow"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <!-- 用来放所有的点 存放默认的三个点 -->
+        <LinearLayout
+            android:id="@id/ll_all_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <!-- 选中的点 -->
+        <View
+            android:id="@id/point"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/dot_focus"/>
+    </RelativeLayout>
+
+</RelativeLayout>
